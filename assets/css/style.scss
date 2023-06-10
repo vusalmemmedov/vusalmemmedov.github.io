@@ -9,500 +9,112 @@
     margin: auto;
 }
 
-#header {
-    background-color: #ffffff;
+body {
+    background: url(/assets/img/bg.png);
     width: 100%;
-    height: 100%;
+    height: 100vh;
+}
+
+#header {
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
     display: inline-block;
 
-    .main_all {
-        margin-top: 20px;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+    .container {
+        .header_all {
+            .navbar {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
 
-        svg {
-            width: 24px;
-            height: 24px;
-            fill: #111111;
+                h3 {
+                    color: #ffffff;
+                    font-size: 28px;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 700;
+                    user-select: none;
+                }
+
+                .navbar_page {
+                    display: flex;
+                    gap: 20px;
+                    justify-content: center;
+
+                    a {
+                        font-size: 20px;
+                        color: #ffffff;
+                        font-weight: 300;
+                        font-family: 'Oswald', sans-serif;
+                        transition: 2s;
+                    }
+
+                    a:hover {
+                        border-bottom: 1px solid aqua;
+                        border-width: 2px;
+                    }
+
+                    .active {
+                        color: aqua;
+                    }
+                }
+            }
         }
     }
 }
 
 #main {
-    #section {
-        width: 100%;
-        height: 100%;
-        background-color: #ffffff;
-        display: inline-block;
-
-        .container {
-            .main_all {
-                .cards {
-                    margin-top: 8%;
-                    display: flex;
-                    gap: 40px;
-                    align-items: center;
-                    justify-content: center;
-
-                    .card_left {
-                        width: 514px;
-                        height: 527px;
-                        padding: 30px 28px;
-
-                        h3 {
-                            color: #111111;
-                            font-size: 48px;
-                            font-family: 'Roboto', sans-serif;
-                            font-weight: 700;
-                        }
-
-                        h5 {
-                            color: #999999;
-                            font-size: 18px;
-                            font-family: 'Open Sans', sans-serif;
-                            margin-top: 20px;
-                            opacity: .9;
-
-                            a {
-                                color: #66c5e8;
-                            }
-                        }
-
-                        h4 {
-                            color: #111111;
-                            font-size: 18px;
-                            font-family: 'Open Sans', sans-serif;
-                            margin-top: 34px;
-                        }
-
-                        .inf {
-                            align-items: center;
-                            display: flex;
-                            gap: 10px;
-
-                            h6 {
-                                color: #111111;
-                                font-size: 20px;
-                                font-family: 'Open Sans', sans-serif;
-                                opacity: .9;
-                            }
-
-                            .u-svg-content {
-                                color: #66c5e8;
-                                width: 16px;
-                                height: 16px;
-                            }
-                        }
-
-                        .tel {
-                            margin-top: 30px;
-                            display: flex;
-                            align-items: center;
-                            gap: 10px;
-
-                            svg {
-                                width: 20px;
-                                height: 20px;
-                                fill: #66c5e8;
-                            }
-
-                            a {
-                                color: #111111;
-                                font-size: 20px;
-                                font-family: 'Open Sans', sans-serif;
-                                font-weight: 700;
-                                transition: .3s;
-                            }
-
-                            a:hover {
-                                color: #66c5e8;
-                            }
-                        }
-                    }
-
-                    .card_right {
-                        img {
-                            width: 510px;
-                            height: 532px;
-                            padding: 30px 30px 25px;
-                            object-fit: cover;
-                            background-size: cover;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    #section2 {
-        margin-top: 50px;
-        background-color: #66c5e8;
-        width: 100%;
-        height: 30vh;
-        display: inline-block;
-
-        .container {
-            .main_all {
-                margin-top: 70px;
-                display: flex;
-                gap: 60px;
-                align-items: center;
-                justify-content: center;
-
-                .card {
-                    width: 299.800px;
-                    height: 66px;
-                    padding: 30px 40px;
-
-                    img {
-                        object-fit: cover;
-                        background-size: cover;
-                    }
-                }
-            }
-        }
-    }
-
-    #section3 {
-        .container {
-            .main_all {
-                .cards {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-
-                    .cardleft {
-                        background-size: cover;
-
-                        img {
-                            background-position: 50% 50%;
-                            object-fit: cover;
-                            background-size: cover;
-                        }
-                    }
-
-                    .cardright {
-                        padding: 30px;
-                        text-align: left;
-                        align-items: center;
-
-                        img {
-                            width: 118px;
-                            height: 118px;
-                            border-radius: 50%;
-                            object-fit: cover;
-                            background-position: 50% 83.9%;
-                            background-size: cover;
-                        }
-
-                        h4 {
-                            color: #111111;
-                            font-size: 48px;
-                            font-family: 'Roboto', sans-serif;
-                            margin-top: 20px;
-                            font-weight: 700;
-                        }
-
-                        p {
-                            color: #111111;
-                            font-size: 18px;
-                            font-family: 'Open Sans', sans-serif;
-                            margin-top: 20px;
-                            opacity: .9;
-                            margin-bottom: 40px;
-                        }
-
-                        a {
-                            color: #ffffff;
-                            font-size: 16px;
-                            font-family: 'Open Sans', sans-serif;
-                            background-color: #66c5e8;
-                            margin-top: 30px;
-                            padding: 20px 48px 20px 48px;
-                            border-radius: 50px;
-                            letter-spacing: 2px;
-                            font-weight: 700;
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    #section4 {
-        width: 100%;
-        height: 100vh;
-        background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/04100d49ecf35ae182150a9a/close-up-executives-sitting-table.jpg);
-        background-size: cover;
-        background-position: 50% 50%;
-        margin-top: 50px;
-        display: inline-block;
-
-        .container {
-            .main_all {
-                display: flex;
-                flex-direction: column;
-                margin: auto;
-                justify-content: center;
-                align-items: center;
-
-                .card {
-                    width: 694px;
-                    height: 454px;
-                    padding: 0px 60px 30px;
-                    background-color: #ffffff;
-                    text-align: center;
-                    align-items: center;
-                    justify-content: center;
-                    margin-top: 160px;
-
-                    img {
-                        width: 198px;
-                        height: 198px;
-                        object-fit: cover;
-                        background-size: cover;
-                        border-radius: 50%;
-                        margin-top: -90px;
-                    }
-
-                    h5 {
-                        color: #111111;
-                        font-size: 20px;
-                        font-family: 'Roboto', sans-serif;
-                        margin-top: 80px;
-                        letter-spacing: 3px;
-                    }
-
-                    svg {
-                        margin-top: 80px;
-                        width: 39px;
-                        height: 39px;
-                        fill: #66c5e8;
-                    }
-                }
-            }
-        }
-    }
-
-    #section5 {
-        width: 100%;
-        height: 100%;
-        background-color: #ffffff;
-
-        .container {
-            .main_all {
-                .cards {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    .card {
-                        margin-top: 50px;
-                        padding: 30px;
-                        width: 373.33px;
-                        height: 525.6px;
-                        text-align: center;
-                        align-items: center;
-                        justify-content: center;
-
-                        svg {
-                            fill: #66c5e8;
-                            width: 38px;
-                            height: 38px;
-                        }
-
-                        h5 {
-                            color: #111111;
-                            font-size: 20px;
-                            font-family: 'Roboto', sans-serif;
-                            margin-top: 30px;
-                            font-weight: 400;
-                            margin-bottom: 25px;
-                        }
-
-                        span {
-                            color: #111111;
-                            font-size: 36px;
-                            font-family: 'Ubuntu', sans-serif;
-                            font-weight: 700;
-
-                            h3 {
-                                color: #111111;
-                                font-weight: 400;
-                            }
-                        }
-
-                        p {
-                            color: #111111;
-                            font-size: 18px;
-                            font-family: 'Open Sans', sans-serif;
-                            margin-top: 22px;
-                            font-weight: 400;
-                            margin-bottom: 30px;
-                        }
-
-                        a {
-                            color: #ffffff;
-                            font-size: 16px;
-                            font-family: 'Open Sans', sans-serif;
-                            background-color: #66c5e8;
-                            padding: 18px 31px 18px 31px;
-                            font-weight: 700;
-                            border-radius: 50px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    #section6 {
-        width: 100%;
-        height: 50vh;
-        background-color: #66c5e8;
-        display: inline-block;
-
+    #section1 {
         .container {
             .main_all {
                 .title {
-                    text-align: center;
-                    align-items: center;
+                    margin-top: 120px;
                     justify-content: center;
                     display: flex;
                     flex-direction: column;
-                    margin-top: 80px;
+                    align-items: center;
 
                     h3 {
                         color: #ffffff;
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 64px;
                         font-weight: 700;
-                        font-size: 48px;
-                        font-family: 'Roboto', sans-serif;
-                    }
-
-                    p {
-                        color: #ffffff;
-                        font-size: 18px;
-                        font-family: 'Open Sans', sans-serif;
-                        margin-top: 20px;
-                        margin-bottom: 30px;
-                    }
-
-                    a {
-                        color: #111111;
-                        font-size: 14px;
-                        font-family: 'Open Sans', sans-serif;
-                        background-color: #ffffff;
-                        padding: 20px 46px 20px 46px;
-                        border-radius: 50px;
-                        font-weight: 700;
-                    }
-                }
-            }
-        }
-    }
-
-    #section7 {
-        width: 100%;
-        height: 60vh;
-        background: url(https://assets.nicepagecdn.com/11a8ddce/3877699/images/pexels-photo-532568.jpeg);
-        object-fit: cover;
-        background-size: cover;
-        background-position: 50% 67.53%;
-    }
-
-    #section8 {
-        .container {
-            .main_all {
-                .cards {
-                    display: flex;
-                    gap: 40px;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-
-                    .card {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.15);
-                        margin-top: -70px;
-                        width: 260.33px;
-                        height: 201.2px;
-                        padding: 20px;
-                        background-color: #ffffff;
-
-                        h5 {
-                            color: #111111;
-                            font-size: 20px;
-                            font-family: 'Roboto', sans-serif;
-                            font-weight: 500;
-                        }
-
-                        p {
-                            color: #111111;
-                            font-size: 18px;
-                            font-family: 'Open Sans', sans-serif;
-                            margin-top: 22px;
-                            font-weight: 400;
-                        }
-
-                        span {
-                            color: #111111;
-                            font-size: 18px;
-                            font-family: 'Open Sans', sans-serif;
-                            font-weight: 700;
-                        }
-
-                        .tel {
-                            margin-top: 40px;
-                            display: flex;
-                            flex-direction: column;
-                            row-gap: 20px;
-
-                            a {
-                                color: #111111;
-                                font-weight: 700;
-                                font-size: 18px;
-                                font-family: 'Open Sans', sans-serif;
-                            }
-                        }
-                    }
-                }
-
-                .title {
-                    text-align: center;
-                    align-items: center;
-                    justify-content: center;
-                    display: flex;
-                    flex-direction: column;
-
-                    p {
-                        color: #111111;
-                        font-size: 18px;
-                        font-family: 'Open Sans', sans-serif;
-                        margin-top: 60px;
-                        font-weight: 400;
-
-                        a {
-                            color: #66c5e8;
-                        }
-                    }
-
-                    button {
-                        width: 350px;
-                        color: #ffffff;
-                        font-size: 16px;
-                        font-family: 'Open Sans', sans-serif;
-                        background-color: #66c5e8;
-                        margin-top: 30px;
-                        padding: 20px 30px 20px 30px;
                         letter-spacing: 3px;
-                        font-weight: 400;
-                        border-radius: 50px;
+                    }
+
+                    p {
+                        margin-top: 20px;
+                        font-size: 32px;
+                        color: #ffffff;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                    }
+
+                    .buttons {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 30px;
+                        gap: 40px;
+                        a {
+                            color: #ffffff;
+                            font-family: 'Ubuntu', sans-serif;
+                            letter-spacing: 2px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            padding: 15px 25px;
+                            border: 1px solid aqua;
+                            border-width: 2px;
+                            border-radius: 50px;
+                            transition: .4s;
+                        }
+                        a:hover{
+                            background-color: #ffffff;
+                            color: #111111;
+                        }
                     }
                 }
             }

@@ -9,416 +9,96 @@
   margin: auto;
 }
 
-#header {
-  background-color: #ffffff;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-}
-#header .main_all {
-  margin-top: 20px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-#header .main_all svg {
-  width: 24px;
-  height: 24px;
-  fill: #111111;
-}
-
-#main #section {
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  display: inline-block;
-}
-#main #section .container .main_all .cards {
-  margin-top: 8%;
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  justify-content: center;
-}
-#main #section .container .main_all .cards .card_left {
-  width: 514px;
-  height: 527px;
-  padding: 30px 28px;
-}
-#main #section .container .main_all .cards .card_left h3 {
-  color: #111111;
-  font-size: 48px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-}
-#main #section .container .main_all .cards .card_left h5 {
-  color: #999999;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 20px;
-  opacity: 0.9;
-}
-#main #section .container .main_all .cards .card_left h5 a {
-  color: #66c5e8;
-}
-#main #section .container .main_all .cards .card_left h4 {
-  color: #111111;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 34px;
-}
-#main #section .container .main_all .cards .card_left .inf {
-  align-items: center;
-  display: flex;
-  gap: 10px;
-}
-#main #section .container .main_all .cards .card_left .inf h6 {
-  color: #111111;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  opacity: 0.9;
-}
-#main #section .container .main_all .cards .card_left .inf .u-svg-content {
-  color: #66c5e8;
-  width: 16px;
-  height: 16px;
-}
-#main #section .container .main_all .cards .card_left .tel {
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-#main #section .container .main_all .cards .card_left .tel svg {
-  width: 20px;
-  height: 20px;
-  fill: #66c5e8;
-}
-#main #section .container .main_all .cards .card_left .tel a {
-  color: #111111;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  transition: 0.3s;
-}
-#main #section .container .main_all .cards .card_left .tel a:hover {
-  color: #66c5e8;
-}
-#main #section .container .main_all .cards .card_right img {
-  width: 510px;
-  height: 532px;
-  padding: 30px 30px 25px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-size: cover;
-}
-#main #section2 {
-  margin-top: 50px;
-  background-color: #66c5e8;
-  width: 100%;
-  height: 30vh;
-  display: inline-block;
-}
-#main #section2 .container .main_all {
-  margin-top: 70px;
-  display: flex;
-  gap: 60px;
-  align-items: center;
-  justify-content: center;
-}
-#main #section2 .container .main_all .card {
-  width: 299.8px;
-  height: 66px;
-  padding: 30px 40px;
-}
-#main #section2 .container .main_all .card img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-size: cover;
-}
-#main #section3 .container .main_all .cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#main #section3 .container .main_all .cards .cardleft {
-  background-size: cover;
-}
-#main #section3 .container .main_all .cards .cardleft img {
-  background-position: 50% 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-size: cover;
-}
-#main #section3 .container .main_all .cards .cardright {
-  padding: 30px;
-  text-align: left;
-  align-items: center;
-}
-#main #section3 .container .main_all .cards .cardright img {
-  width: 118px;
-  height: 118px;
-  border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-position: 50% 83.9%;
-  background-size: cover;
-}
-#main #section3 .container .main_all .cards .cardright h4 {
-  color: #111111;
-  font-size: 48px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 20px;
-  font-weight: 700;
-}
-#main #section3 .container .main_all .cards .cardright p {
-  color: #111111;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 20px;
-  opacity: 0.9;
-  margin-bottom: 40px;
-}
-#main #section3 .container .main_all .cards .cardright a {
-  color: #ffffff;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  background-color: #66c5e8;
-  margin-top: 30px;
-  padding: 20px 48px 20px 48px;
-  border-radius: 50px;
-  letter-spacing: 2px;
-  font-weight: 700;
-}
-#main #section4 {
+body {
+  background: url(/assets/img/bg.png);
   width: 100%;
   height: 100vh;
-  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/04100d49ecf35ae182150a9a/close-up-executives-sitting-table.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  margin-top: 50px;
+}
+
+#header {
+  width: 100%;
+  height: 10vh;
+  background-color: transparent;
   display: inline-block;
 }
-#main #section4 .container .main_all {
+#header .container .header_all .navbar {
+  margin-top: 20px;
   display: flex;
-  flex-direction: column;
-  margin: auto;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
-#main #section4 .container .main_all .card {
-  width: 694px;
-  height: 454px;
-  padding: 0px 60px 30px;
-  background-color: #ffffff;
   text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-top: 160px;
 }
-#main #section4 .container .main_all .card img {
-  width: 198px;
-  height: 198px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-size: cover;
-  border-radius: 50%;
-  margin-top: -90px;
-}
-#main #section4 .container .main_all .card h5 {
-  color: #111111;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 80px;
-  letter-spacing: 3px;
-}
-#main #section4 .container .main_all .card svg {
-  margin-top: 80px;
-  width: 39px;
-  height: 39px;
-  fill: #66c5e8;
-}
-#main #section5 {
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-}
-#main #section5 .container .main_all .cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#main #section5 .container .main_all .cards .card {
-  margin-top: 50px;
-  padding: 30px;
-  width: 373.33px;
-  height: 525.6px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-#main #section5 .container .main_all .cards .card svg {
-  fill: #66c5e8;
-  width: 38px;
-  height: 38px;
-}
-#main #section5 .container .main_all .cards .card h5 {
-  color: #111111;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 30px;
-  font-weight: 400;
-  margin-bottom: 25px;
-}
-#main #section5 .container .main_all .cards .card span {
-  color: #111111;
-  font-size: 36px;
+#header .container .header_all .navbar h3 {
+  color: #ffffff;
+  font-size: 28px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
-#main #section5 .container .main_all .cards .card span h3 {
-  color: #111111;
-  font-weight: 400;
-}
-#main #section5 .container .main_all .cards .card p {
-  color: #111111;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 22px;
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-#main #section5 .container .main_all .cards .card a {
-  color: #ffffff;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  background-color: #66c5e8;
-  padding: 18px 31px 18px 31px;
-  font-weight: 700;
-  border-radius: 50px;
-}
-#main #section6 {
-  width: 100%;
-  height: 50vh;
-  background-color: #66c5e8;
-  display: inline-block;
-}
-#main #section6 .container .main_all .title {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+#header .container .header_all .navbar .navbar_page {
   display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-}
-#main #section6 .container .main_all .title h3 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 48px;
-  font-family: "Roboto", sans-serif;
-}
-#main #section6 .container .main_all .title p {
-  color: #ffffff;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-#main #section6 .container .main_all .title a {
-  color: #111111;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  background-color: #ffffff;
-  padding: 20px 46px 20px 46px;
-  border-radius: 50px;
-  font-weight: 700;
-}
-#main #section7 {
-  width: 100%;
-  height: 60vh;
-  background: url(https://assets.nicepagecdn.com/11a8ddce/3877699/images/pexels-photo-532568.jpeg);
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-size: cover;
-  background-position: 50% 67.53%;
-}
-#main #section8 .container .main_all .cards {
-  display: flex;
-  gap: 40px;
+  gap: 20px;
   justify-content: center;
-  align-items: center;
-  text-align: center;
 }
-#main #section8 .container .main_all .cards .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.15);
-  margin-top: -70px;
-  width: 260.33px;
-  height: 201.2px;
-  padding: 20px;
-  background-color: #ffffff;
-}
-#main #section8 .container .main_all .cards .card h5 {
-  color: #111111;
+#header .container .header_all .navbar .navbar_page a {
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+  transition: 2s;
 }
-#main #section8 .container .main_all .cards .card p {
-  color: #111111;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 22px;
-  font-weight: 400;
+#header .container .header_all .navbar .navbar_page a:hover {
+  border-bottom: 1px solid aqua;
+  border-width: 2px;
 }
-#main #section8 .container .main_all .cards .card span {
-  color: #111111;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+#header .container .header_all .navbar .navbar_page .active {
+  color: aqua;
 }
-#main #section8 .container .main_all .cards .card .tel {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 20px;
-}
-#main #section8 .container .main_all .cards .card .tel a {
-  color: #111111;
-  font-weight: 700;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-}
-#main #section8 .container .main_all .title {
-  text-align: center;
-  align-items: center;
+
+#main #section1 .container .main_all .title {
+  margin-top: 120px;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-#main #section8 .container .main_all .title p {
-  color: #111111;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 60px;
-  font-weight: 400;
-}
-#main #section8 .container .main_all .title p a {
-  color: #66c5e8;
-}
-#main #section8 .container .main_all .title button {
-  width: 350px;
+#main #section1 .container .main_all .title h3 {
   color: #ffffff;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  background-color: #66c5e8;
-  margin-top: 30px;
-  padding: 20px 30px 20px 30px;
+  font-family: "Oswald", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
   letter-spacing: 3px;
-  font-weight: 400;
+}
+#main #section1 .container .main_all .title p {
+  margin-top: 20px;
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+#main #section1 .container .main_all .title .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+#main #section1 .container .main_all .title .buttons a {
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px 25px;
+  border: 1px solid aqua;
+  border-width: 2px;
   border-radius: 50px;
+  transition: 0.4s;
+}
+#main #section1 .container .main_all .title .buttons a:hover {
+  background-color: #ffffff;
+  color: #111111;
 }/*# sourceMappingURL=style.css.map */
