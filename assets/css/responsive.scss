@@ -1,0 +1,79 @@
+@media screen and (max-width: 1170px) {
+    #main{
+        #section{
+            .container{
+                .main_all{
+                    .cards{
+                        margin-bottom: 40px;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+        #section2{
+            height: 100%;
+            .container{
+                .main_all{
+                    margin-top: 0;
+                    padding: 30px;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+        #section3{
+            .container{
+                .main_all{
+                    .cards{
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+        #section4{
+            height: 100%;
+            .container{
+                .main_all{
+                    flex-wrap: wrap;
+                    .card{
+                        width: auto;
+                        height: auto;
+                    }
+                }
+            }
+        }
+        #section5{
+            .container{
+                .main_all{
+                    .cards{
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+        #section6{
+            height: 100%;
+        }
+        #section7{
+            height: 100%;
+
+        }
+        #section8{
+            .container{
+                .main_all{
+                    .cards{
+                        row-gap: 80px;
+                    }
+                    .title{
+                        button{
+                            width: 320px;
+                        }
+                    }
+                    .cards{
+                        margin-top: 100px;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+}

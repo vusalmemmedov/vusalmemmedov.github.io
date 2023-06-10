@@ -1,0 +1,46 @@
+@media screen and (max-width: 1170px) {
+  #main #section .container .main_all .cards {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  #main #section2 {
+    height: 100%;
+  }
+  #main #section2 .container .main_all {
+    margin-top: 0;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+  #main #section3 .container .main_all .cards {
+    flex-wrap: wrap;
+  }
+  #main #section4 {
+    height: 100%;
+  }
+  #main #section4 .container .main_all {
+    flex-wrap: wrap;
+  }
+  #main #section4 .container .main_all .card {
+    width: auto;
+    height: auto;
+  }
+  #main #section5 .container .main_all .cards {
+    flex-wrap: wrap;
+  }
+  #main #section6 {
+    height: 100%;
+  }
+  #main #section7 {
+    height: 100%;
+  }
+  #main #section8 .container .main_all .cards {
+    row-gap: 80px;
+  }
+  #main #section8 .container .main_all .title button {
+    width: 320px;
+  }
+  #main #section8 .container .main_all .cards {
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=responsive.css.map */
